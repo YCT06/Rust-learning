@@ -1,0 +1,19 @@
+# Cargo build output (including nested learning projects)
+**/target/
+
+# Output from compiling standalone Rust files with rustc
+*.exe
+*.pdb
+*.obj
+*.o
+*.rlib
+*.rmeta
+
+# Editor temporary files and OS metadata
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Keep Cargo.lock tracked for reproducible application examples.
